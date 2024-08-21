@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    outline: 0px;
+    padding: 0px;
+}
+#out{
+    background-image: url(ai-generated-8327632_1280.jpg);
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    /* background: linear-gradient(to top,black); */
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+}
+#baby{
+    color:transparent;
+    font-size: 50px;
+    font-style:inherit;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 1px yellow;
+    position: relative;
+
+}
+#baby::before{
+    content: "CHICK";
+    position: absolute;
+    color: yellow;
+    border-right: 8px yellow;
+    transition:1s ease-in-out;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+}
+#baby:hover::before{
+    width: 100%;
+    /* filter: drop-shadow(yellow); */
+}
+#home{
+    float: left;
+    width: 400px;
+    height: 70px;
+    
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li{
+    color: white;
+    margin-left: 60px;
+    list-style: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li a:hover{
+    color: black;
+}
+#sonu1{
+    color: rgb(255, 217, 0);
+    font-size: 100px;
+}
+#align{
+    margin: 50% 0px 0px 0px;
+    
+    
+    
+}
+#mno input{
+    border-radius: 50px;
+    height: 40px;
+    width: 60%;
+    background-color: transparent;
+    border-color:orangered;
+    border-width: 3px;
+    
+    
+}
+#pass input{
+    margin: 10px 0px 0px 0px;
+    border-radius: 50px;
+    height: 40px;
+    width: 60%;
+    background-color: transparent;
+    border-color: orangered;
+    border-width: 3px;
+}
+#check input{
+    margin: 10px 0px 0px 0px;
+    width: 30%;
+    
+}
+#fg{
+    margin: 10px 0px 0px 0px;
+}
+#button button{
+    margin: 10px 0px 0px 0px;
+    border-radius: 50px;
+    height: 40px;
+    width: 60%;
+        
+}
+#button button:hover{
+    background-color: yellow; 
+}
+#button  button type:hover{
+    color: yellow;
+}
+#logo{
+    word-spacing: 5px;
+    font-size: 30px;
+    margin: 10px 0px 0px 60px;
+    box-shadow: inset;    
+}
+#mno input::placeholder{
+    color: white;
+    text-align: center;
+}
+#pass input::placeholder{
+    color: white;
+    text-align: center;
+}
+#login{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px 0px 30px 80px ;
+    font-weight: bolder;
+    
+}
+#search{
+    
+    margin-left: 910px;
+    margin-top: 30px;
+    margin-right: 100px;
+    width: 2050px;
+    height: 50px;
+    
+}
+#s1{
+    width: 300px;
+    background: transparent ;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    margin-top: 2px ;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: larger;
+}
+
+#s1:hover{
+    
+}
+.button{
+    width: 100px;
+    height: 45px;
+    margin-left:1150 ;
+    margin-right: 50%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    margin-top: 2px;
+    font-family:fantasy;
+}
